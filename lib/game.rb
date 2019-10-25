@@ -39,6 +39,9 @@ class Game
     won? || @board.full? || draw?
   end
 
+  def winner?
+
+  end
 
 
 
