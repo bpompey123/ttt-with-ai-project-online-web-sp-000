@@ -47,15 +47,8 @@ class Game
 
   def turn
     puts "Please enter 1-9:"
-    input = gets.strip
-    input = input_to_index(input)
-
-    if valid_move?(input)
-      move(input, value = current_player)
-      display_board
-    else
-      turn
-    end
+    input = current_player.move(input).to_i
+    movex(input, current_player)
   end
 
 
