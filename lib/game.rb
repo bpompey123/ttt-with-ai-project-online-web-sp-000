@@ -13,7 +13,7 @@ class Game
   [2,4,6]
 ]
 
-  def initialize(board)
+  def initialize
     @board = board
   end
 
