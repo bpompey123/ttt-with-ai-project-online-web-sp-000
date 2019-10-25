@@ -41,7 +41,7 @@ class Game
 
   def winner
     if won?
-      return @board[won?[0]]
+      return @board.cells[won?[0]]
     end
   end
 
