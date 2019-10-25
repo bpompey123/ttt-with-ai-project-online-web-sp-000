@@ -39,7 +39,7 @@ class Game
     won? || @board.full? || draw?
   end
 
-  def winner?
+  def winner
     if won?
       return @board[won?[0]]
     end
