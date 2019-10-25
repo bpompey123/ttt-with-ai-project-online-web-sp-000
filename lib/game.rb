@@ -45,6 +45,10 @@ class Game
     end
   end
 
+  def movex(input, current_player)
+    @board.valid_move?(input)? @board.update(input, current_player) : turn
+  end
+  
   def turn
     puts "Please enter 1-9:"
     input = current_player.move(input).to_i
