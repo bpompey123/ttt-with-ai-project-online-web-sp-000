@@ -35,6 +35,10 @@ class Game
     !won? && @board.full?
   end
 
+  def over?
+
+  end
+
 
 
 
