@@ -1,4 +1,4 @@
-Module Players
+module Players
   class Human < Player
 
 
