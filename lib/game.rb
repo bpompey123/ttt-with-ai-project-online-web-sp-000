@@ -35,6 +35,7 @@ class Game
 
 
       position_1 == position_2 && position_2 == position_3 && position_taken?(win_index_1)
+    end
   end
 
 
